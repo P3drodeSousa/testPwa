@@ -1,6 +1,6 @@
 {
   "name": "MecaProtest",
-  "short_name": "PWAGram",
+  "short_name": "Meca",
   "icons": [
     {
       "src": "./img/icons/app-icon-48x48.png",
@@ -39,7 +39,7 @@
     }
   ],
   "start_url": "./index.html",
-  "scope": ".",
+  "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#fff",

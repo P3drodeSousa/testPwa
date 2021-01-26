@@ -176,7 +176,6 @@ a {
 /* Page exercice*/
 .exercice {
   color: var(--blueBg);
-  background: yellow;
 }
 
 .exercice > div {
@@ -191,6 +190,6 @@ a {
 
 .exercice div > span {
   flex-basis: 100%;
-  background: red;
   align-items: center;
+  text-align: center;
 }

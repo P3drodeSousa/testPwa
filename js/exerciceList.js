@@ -1,6 +1,6 @@
 const Container = document.querySelector(".container");
 
-const exercices = Array.from(Array(15).keys(), (n) => n + 1);
+const exercices = Array.from(Array(30).keys(), (n) => n + 1);
 
 const category = JSON.parse(sessionStorage.getItem("PageInfos"));
 const thematique = sessionStorage.getItem("Thematique");

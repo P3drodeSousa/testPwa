@@ -89,7 +89,7 @@ function loadContent() {
 
     const catEl = document.createElement("div");
     catEl.classList.add("category");
-    // catEl.addEventListener("click", () => goToPage3(i));
+    catEl.addEventListener("click", () => goToPage3(i));
     catEl.innerHTML = `
             <div class="download">
                <img src="./img/icons/download.svg" alt="" data-url=${support} srcset="">

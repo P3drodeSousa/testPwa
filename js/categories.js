@@ -76,8 +76,6 @@ const categories = [
   },
 ];
 
-let donwload;
-
 function goToPage3(i) {
   sessionStorage.setItem("PageInfos", JSON.stringify(categories[i]));
   window.location = "./page3.html";
@@ -106,7 +104,6 @@ function loadContent() {
         `;
 
     Container.appendChild(catEl);
-    document.querySelector(".download").addEventListener("click", showSupport);
   });
 }
 
@@ -117,5 +114,6 @@ function showSupport() {
 
 // Event Listeners
 window.addEventListener("load", loadContent);
+document.querySelector(".download").addEventListener("click", showSupport);
 // console.log(download);
 // download.addEventListener("click", showSupport);

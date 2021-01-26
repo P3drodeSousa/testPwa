@@ -145,12 +145,6 @@ a {
   margin-right: 10px;
 }
 
-.category:hover {
-  transform: scale(1.01);
-  background: red;
-  transition: 300ms;
-}
-
 .category .infos {
   display: flex;
 }

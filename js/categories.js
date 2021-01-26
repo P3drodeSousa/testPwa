@@ -114,6 +114,5 @@ function showSupport() {
 
 // Event Listeners
 window.addEventListener("load", loadContent);
-document.querySelector(".download").addEventListener("click", showSupport);
 // console.log(download);
 // download.addEventListener("click", showSupport);
